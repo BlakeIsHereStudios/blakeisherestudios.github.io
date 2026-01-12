@@ -1,0 +1,160 @@
+ @charset "UTF-8";
+
+body {
+   background-color:#ffffff;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:100%;
+   color:#000000;
+   margin:0;
+   padding:0;
+   text-align:center
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin-top:0.5em;
+   margin-bottom:0.5em;
+}
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:2em;
+    color:#000000;
+    font-style:normal;
+    font-weight:bold;
+}
+
+h2 {
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:1.5em;
+   font-style:normal;
+   font-weight:bold;
+   color : #000000;
+}
+
+p {
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:1em;
+   margin-top:0;
+   margin-bottom:0.5em;
+   font-style:normal;
+   color:#000000;
+}
+
+button {
+   border:none;
+   border-radius:1em;
+   color:#ffffff;
+   padding:0.5em 1em;
+   text-align:center;
+   font-weight:bold;
+   font-size:1em;
+   transition-duration:0.5s;
+   margin:0.25em 0.25em;
+}
+
+footer {
+   padding:1em;
+   text-align:center;
+   background-color:#ffffff;
+}
+
+footer p {
+   margin-bottom:0;
+}
+
+.section1 {
+   padding:1em;
+   text-align:center;
+   background-color:#7FC9FF;
+   border-radius:1em;
+}
+
+.button1 {
+   background-color:#0094FF;
+   color:#ffffff;
+}
+
+.button1:hover {
+  background-color: #3FAFFF;
+  color: white;
+}
+
+.section2 {
+   padding:1em;
+   text-align:center;
+   background-color:#FFB27F;
+   border-radius:1em;
+}
+
+.button2 {
+   background-color:#FF6A00;
+   color:#ffffff;
+}
+
+.button2:hover {
+   background-color:#FF8C3F;
+   color:white;
+}
+
+#navbar {
+   list-style-type:none;
+   margin:0;
+   padding:0;
+   background-color:#0094FF;
+   display:flex;
+   justify-content:center;
+}
+
+#navbar li #title {
+   display:block;
+   color:white;
+   padding:0.75em 1em;
+   text-decoration:none;
+   transition-duration:0.5s;
+}
+
+#navbar li a {
+   display:block;
+   color:white;
+   padding:0.75em 1em;
+   text-decoration:none;
+   transition-duration:0.5s;
+}
+
+#navbar li a:hover {
+   background-color:#3FAFFF;
+}
+
+#navbar li a.active {
+  background-color:#0072BF;
+}
+
+#main-page-topper {
+   margin-top:3em;
+   margin-bottom:3em;
+}
+
+#page-title {
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:2.5em;
+   color:#000000;
+   font-style:normal;
+   font-weight:bold;
+   margin-top:0.25em;
+   margin-bottom:0.25em;
+}
+
+#page-subtitle {
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:1.5em;
+   color:#000000;
+   font-style:normal;
+   font-weight:bold;
+   margin-top:0.25em;
+   margin-bottom:0.25em;
+}
