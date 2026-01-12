@@ -1,2 +1,2 @@
-# BlakeIsHere-Website
-Source code of the BlakeIsHere website.
+# BlakeIsHere-website
+The source code of the BlakeIsHere website.
