@@ -53,7 +53,7 @@ button {
    padding:0.5em 1em;
    font-family:"Open Sans", Arial, Helvetica, sans-serif;
    text-align:center;
-   font-weight:600;
+   font-weight:550;
    font-size:1em;
    transition-duration:0.5s;
    margin:0.25em 0.25em;
@@ -76,11 +76,11 @@ footer p {
 
 a {
    text-decoration: none;
-   font-weight:500;
+   font-weight:550;
 }
 
 abbr {
-  font-weight: 500;
+  font-weight: 550;
   color: #004A7F;
   text-decoration: none;
 }
@@ -160,7 +160,7 @@ code {
 
 #navbar li a.active {
    background-color:#0072BF;
-   font-weight:500;
+   font-weight:550;
 }
 
 #main-page-topper {
