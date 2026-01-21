@@ -92,6 +92,18 @@ code {
   padding: 0 3px;
 }
 
+q {
+  font-style: italic;
+}
+
+blockquote p::before {
+  content: "\201C";
+}
+
+blockquote p::after {
+  content: "\201D";
+}
+
 .section1 {
    padding:1em;
    text-align:center;
